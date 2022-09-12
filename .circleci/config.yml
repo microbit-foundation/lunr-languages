@@ -18,11 +18,11 @@ _steps:
         - .npm-cache
       key: npm-v1-{{ .Branch }}-{{ checksum "package-lock.json" }}
   configure_registry_auth: &configure_registry_auth
-     run:
-       name: Configure registry auth
-       # Alternative for public packages via npmjs registry:
-       # command: echo "//registry.npmjs.org/:_authToken=$NPM_AUTH_TOKEN" >> ~/repo/.npmrc
-       command: echo "//npm.pkg.github.com/:_authToken=$GITHUB_TOKEN" >> ~/repo/.npmrc
+    run:
+      name: Configure registry auth
+      # Alternative for public packages via npmjs registry:
+      # command: echo "//registry.npmjs.org/:_authToken=$NPM_AUTH_TOKEN" >> ~/repo/.npmrc
+      command: echo "//npm.pkg.github.com/:_authToken=$GITHUB_TOKEN" >> ~/repo/.npmrc
 
 jobs:
   test:
@@ -71,4 +71,4 @@ workflows:
             tags:
               only: /^v.*/
             branches:
-              only: master
+              only: microbit
