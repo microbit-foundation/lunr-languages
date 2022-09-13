@@ -1,3 +1,11 @@
+# Head's up
+
+This is a fork of [lunr-languages](https://github.com/microbit-foundation/lunr-languages) for the micro:bit Python Editor. It's otherwise unsupported by the Foundation. Changes:
+
+- Merged [the PR for Korean support](https://github.com/MihaiValentin/lunr-languages/pull/81)
+
+# Original documentation
+
 Lunr Languages [![npm](https://img.shields.io/npm/v/lunr-languages.svg)](https://www.npmjs.com/package/lunr-languages) [![Bower](https://img.shields.io/bower/v/lunr-languages.svg)]() [![Join the chat at https://gitter.im/lunr-languages/Lobby](https://badges.gitter.im/lunr-languages/Lobby.svg)](https://gitter.im/lunr-languages/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![](https://img.shields.io/badge/compatible%20with%20Lunr-0.6.0%20--%3E%202.x-green.svg)](http://lunrjs.com/) [![CircleCI branch](https://img.shields.io/circleci/project/github/MihaiValentin/lunr-languages.svg)](https://circleci.com/gh/MihaiValentin/lunr-languages)
 ==============
 
