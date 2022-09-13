@@ -1,4 +1,4 @@
-# Head's up
+# Heads up
 
 This is a fork of [lunr-languages](https://github.com/microbit-foundation/lunr-languages) for the micro:bit Python Editor. It's otherwise unsupported by the Foundation. Changes:
 
