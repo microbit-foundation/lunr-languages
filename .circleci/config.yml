@@ -27,7 +27,6 @@ jobs:
     <<: *defaults
     steps:
       - checkout
-      - run: git submodule update --init
       - *restore_npm_cache
       - *configure_registry_auth
       - run: npm ci --cache .npm-cache
