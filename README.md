@@ -3,6 +3,7 @@
 This is a fork of [lunr-languages](https://github.com/microbit-foundation/lunr-languages) for the micro:bit Python Editor. It's otherwise unsupported by the Foundation. Changes:
 
 - Merged [the PR for Korean support](https://github.com/MihaiValentin/lunr-languages/pull/81)
+- Tweaked the metadata and CI build to allow us to build an NPM package.
 
 # Original documentation
 
